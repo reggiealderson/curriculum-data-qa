@@ -9,40 +9,40 @@
   body{
     background:var(--ground); color:var(--ink);
     font-family:Georgia,"Times New Roman",serif;
-    font-size:13px; line-height:1.6; margin:0; padding:30px 18px;
+    font-size:12px; line-height:1.42; margin:0; padding:24px 16px;
     -webkit-font-smoothing:antialiased;
   }
   .doc{
-    max-width:760px; margin:0 auto; background:var(--paper);
-    border:1px solid var(--line); padding:48px 52px 34px;
+    max-width:740px; margin:0 auto; background:var(--paper);
+    border:1px solid var(--line); padding:34px 44px 24px;
   }
 
-  header{ border-bottom:2px solid var(--ink); padding-bottom:16px; margin-bottom:20px; }
+  header{ border-bottom:2px solid var(--ink); padding-bottom:11px; margin-bottom:14px; }
   .kicker{
-    font-family:Arial,Helvetica,sans-serif; font-size:10.5px; font-weight:700;
-    letter-spacing:.16em; text-transform:uppercase; color:var(--soft); margin:0 0 10px;
+    font-family:Arial,Helvetica,sans-serif; font-size:10px; font-weight:700;
+    letter-spacing:.16em; text-transform:uppercase; color:var(--soft); margin:0 0 7px;
   }
-  h1{ font-size:23px; line-height:1.25; font-weight:700; margin:0 0 6px; text-wrap:balance; }
-  .subtitle{ font-size:14px; font-style:italic; color:var(--soft); margin:0 0 14px; }
+  h1{ font-size:20px; line-height:1.2; font-weight:700; margin:0 0 4px; text-wrap:balance; }
+  .subtitle{ font-size:13px; font-style:italic; color:var(--soft); margin:0 0 11px; }
   .meta{
-    font-family:Arial,Helvetica,sans-serif; font-size:12px; color:var(--muted);
-    display:grid; grid-template-columns:auto 1fr; gap:2px 14px;
+    font-family:Arial,Helvetica,sans-serif; font-size:11px; color:var(--muted);
+    display:grid; grid-template-columns:auto 1fr; gap:1px 12px;
   }
   .meta dt{ font-weight:700; color:var(--soft); }
   .meta dd{ margin:0; }
 
   h2{
-    font-size:12px; font-family:Arial,Helvetica,sans-serif; font-weight:700;
+    font-size:11px; font-family:Arial,Helvetica,sans-serif; font-weight:700;
     letter-spacing:.08em; text-transform:uppercase; color:var(--ink);
-    margin:26px 0 9px; padding-bottom:5px; border-bottom:1px solid var(--line);
+    margin:16px 0 7px; padding-bottom:4px; border-bottom:1px solid var(--line);
   }
-  p{ margin:0 0 11px; }
-  .lede{ margin-bottom:4px; }
+  p{ margin:0 0 8px; }
+  .lede{ margin-bottom:2px; }
 
-  table{ width:100%; border-collapse:collapse; margin:6px 0 4px; font-size:12.5px; }
-  th,td{ text-align:left; padding:7px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  table{ width:100%; border-collapse:collapse; margin:4px 0 2px; font-size:12px; }
+  th,td{ text-align:left; padding:5px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
   thead th{
-    font-family:Arial,Helvetica,sans-serif; font-size:10.5px; font-weight:700;
+    font-family:Arial,Helvetica,sans-serif; font-size:10px; font-weight:700;
     letter-spacing:.06em; text-transform:uppercase; color:var(--soft);
     border-bottom:1.5px solid var(--line-strong);
   }
@@ -51,38 +51,39 @@
   th.num{ text-align:right; }
   tbody tr:last-child td{ border-bottom:1.5px solid var(--line-strong); }
 
-  .finding{ margin:0 0 15px; }
-  .finding h3{ font-size:14px; font-weight:700; margin:0 0 3px; }
+  .finding{ margin:0 0 10px; }
+  .finding h3{ font-size:13px; font-weight:700; margin:0 0 2px; }
   .finding h3 .tag{
-    font-family:Arial,Helvetica,sans-serif; font-size:10px; font-weight:700;
+    font-family:Arial,Helvetica,sans-serif; font-size:9.5px; font-weight:700;
     letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-left:8px;
   }
-  .finding .why{ margin:0 0 7px; color:var(--soft); }
+  .finding .why{ margin:0 0 5px; color:var(--soft); }
   ul.ex{ margin:0; padding-left:0; list-style:none; }
-  ul.ex li{ margin:0 0 4px; padding-left:16px; text-indent:-16px; }
-  ul.ex li::before{ content:"\2013"; color:var(--muted); padding-right:8px; }
+  ul.ex li{ margin:0 0 3px; padding-left:15px; text-indent:-15px; }
+  ul.ex li::before{ content:"\2013"; color:var(--muted); padding-right:7px; }
   code, .mono{
-    font-family:"Courier New",Courier,monospace; font-size:12px;
+    font-family:"Courier New",Courier,monospace; font-size:11.5px;
     background:var(--code); padding:0 3px; border-radius:2px;
   }
   .wrong{ font-weight:700; }
   .arrow{ color:var(--muted); }
   .fix{ font-style:italic; }
-  .ref{ color:var(--muted); font-family:Arial,Helvetica,sans-serif; font-size:11px; }
+  .ref{ color:var(--muted); font-family:Arial,Helvetica,sans-serif; font-size:10.5px; }
 
-  ol{ margin:0; padding-left:20px; }
-  ol li{ margin-bottom:6px; }
+  ol{ margin:0; padding-left:18px; }
+  ol li{ margin-bottom:4px; }
 
   footer{
-    margin-top:26px; padding-top:12px; border-top:1px solid var(--line);
-    font-family:Arial,Helvetica,sans-serif; font-size:10.5px; color:var(--muted); line-height:1.5;
+    margin-top:16px; padding-top:9px; border-top:1px solid var(--line);
+    font-family:Arial,Helvetica,sans-serif; font-size:10px; color:var(--muted); line-height:1.45;
   }
   footer a{ color:var(--soft); }
 
-  @media (max-width:620px){ .doc{ padding:32px 24px; } .meta{ grid-template-columns:1fr; } }
+  @media (max-width:620px){ .doc{ padding:26px 22px; } .meta{ grid-template-columns:1fr; } }
   @media print{
-    body{ background:#fff; padding:0; }
-    .doc{ border:none; padding:22px 24px; max-width:none; }
+    @page{ size:A4; margin:12mm 14mm; }
+    body{ background:#fff; padding:0; font-size:11px; }
+    .doc{ border:none; padding:0; max-width:none; }
     -webkit-print-color-adjust:exact; print-color-adjust:exact;
   }
 </style>
@@ -101,11 +102,11 @@
   </header>
 
   <p class="lede">
-    I reviewed the University of Sydney&rsquo;s 655 course and award records in the CRICOS
-    register &mdash; the official public list of courses. Most of the data is in good shape:
-    every record was complete, every course code was unique, and every qualification level was
-    valid. The review did find a small number of clear issues worth correcting, listed below in
-    order of priority.
+    I reviewed the University of Sydney&rsquo;s 655 course and award records in the CRICOS register
+    &mdash; the official public list of courses. Most of the data is in good shape: every record
+    was complete, every course code was unique, and every qualification level was valid. The
+    review did find a small number of clear issues worth correcting, listed below in order of
+    priority.
   </p>
 
   <h2>Summary of findings</h2>
@@ -124,23 +125,21 @@
 
   <div class="finding">
     <h3>1. Spelling mistakes in course names <span class="tag">High priority</span></h3>
-    <p class="why">Five course names contain a spelling mistake. These are official names that
-      appear on student records and graduation documents, so they are worth fixing promptly. I
-      found them by comparing each word against all ~26,000 course names in the national
-      register &mdash; a genuine misspelling stands out clearly.</p>
+    <p class="why">Five course names are misspelled. Because these names appear on student records
+      and graduation documents, they are worth correcting promptly.</p>
     <ul class="ex">
-      <li>Bachelor of Information <span class="mono wrong">Techonology</span> (Honours) <span class="arrow">&rarr;</span> should be <span class="fix">Technology</span></li>
-      <li>Doctor of <span class="mono wrong">Philsophy</span> in Engineering <span class="arrow">&rarr;</span> should be <span class="fix">Philosophy</span> <span class="ref">(two records)</span></li>
-      <li><span class="mono wrong">Grauate</span> Diploma in Design Science <span class="arrow">&rarr;</span> should be <span class="fix">Graduate</span></li>
-      <li>Graduate Certificate in <span class="mono wrong">Engineeering</span> <span class="arrow">&rarr;</span> should be <span class="fix">Engineering</span></li>
+      <li>Bachelor of Information <span class="mono wrong">Techonology</span> (Honours) <span class="arrow">&rarr;</span> <span class="fix">Technology</span></li>
+      <li>Doctor of <span class="mono wrong">Philsophy</span> in Engineering <span class="arrow">&rarr;</span> <span class="fix">Philosophy</span> <span class="ref">(two records)</span></li>
+      <li><span class="mono wrong">Grauate</span> Diploma in Design Science <span class="arrow">&rarr;</span> <span class="fix">Graduate</span></li>
+      <li>Graduate Certificate in <span class="mono wrong">Engineeering</span> <span class="arrow">&rarr;</span> <span class="fix">Engineering</span></li>
     </ul>
   </div>
 
   <div class="finding">
     <h3>2. Courses listed more than once <span class="tag">Medium priority</span></h3>
     <p class="why">In 45 cases the same course, at the same level, is listed under more than one
-      active code. Where a course has more than one live listing, it is worth confirming which one
-      is current and retiring the rest, so the records stay consistent and are not counted twice.</p>
+      active code. Each should be confirmed and any out-of-date listing retired, so records stay
+      consistent and are not counted twice.</p>
     <ul class="ex">
       <li>Graduate Diploma in Computing &mdash; listed 3 times</li>
       <li>Master of Data Science &mdash; listed twice</li>
@@ -150,11 +149,10 @@
 
   <div class="finding">
     <h3>3. Formatting inconsistencies in course names <span class="tag">Low priority</span></h3>
-    <p class="why">Small, cosmetic issues in how names are written. Minor, but they look untidy on
-      published material and can cause the same course to be missed when records are matched by
-      name.</p>
+    <p class="why">Small, cosmetic issues in how names are written &mdash; untidy on published
+      material, and enough to make the same course be missed when records are matched by name.</p>
     <ul class="ex">
-      <li>A double space in the name &mdash; e.g. <span class="mono">Graduate&nbsp;&nbsp;Certificate in Health Communication</span></li>
+      <li>A double space &mdash; e.g. <span class="mono">Graduate&nbsp;&nbsp;Certificate in Health Communication</span></li>
       <li>A stray space inside brackets &mdash; e.g. <span class="mono">&hellip; Arts ( Cotutelle)</span></li>
       <li>Seven names use &ldquo;&amp;&rdquo; where the rest of the register uses &ldquo;and&rdquo;</li>
     </ul>
@@ -162,19 +160,16 @@
 
   <h2>Method</h2>
   <p>
-    I downloaded the national CRICOS register as a single public file from data.gov.au and pulled
-    out the University of Sydney&rsquo;s 655 records. I then ran a set of automated checks, each of
-    which lists only the records that fail it. The process is repeatable, and the underlying code
-    is available.
+    I downloaded the national CRICOS register as a single public file from data.gov.au, extracted
+    the University of Sydney&rsquo;s 655 records, and ran a set of automated checks that each list
+    only the records that fail. The process is repeatable and the code is available.
   </p>
 
   <h2>Recommendations</h2>
   <ol>
-    <li>Correct the spelling mistakes and spacing now &mdash; they are quick to fix and affect
-      names that students see.</li>
-    <li>Review the 45 courses listed more than once and retire any listings that are out of date.</li>
-    <li>Run these checks regularly &mdash; for example, each time the data is updated &mdash; so
-      new issues are caught early.</li>
+    <li>Correct the spelling and spacing now &mdash; quick to fix, and they affect names students see.</li>
+    <li>Review the 45 courses listed more than once and retire any out-of-date listings.</li>
+    <li>Run these checks each time the data is updated, so new issues are caught early.</li>
   </ol>
 
   <footer>
