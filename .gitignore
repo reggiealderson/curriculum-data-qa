@@ -1,0 +1,8 @@
+# Built database and generated reports (regenerable)
+*.db
+report.txt
+# Full national CRICOS export (~7 MB) — regenerable via the URL in the README;
+# the committed USYD subset + derived CSVs are what the QA runs on.
+data/cricos-courses-national.csv
+__pycache__/
+*.pyc
